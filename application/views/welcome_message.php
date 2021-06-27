@@ -67,13 +67,20 @@
  <div class="about" id="bout" style="height:600px;">
 	<p>hello</p>
 </div>	
+<div class="about" id="bout" style="height:100px;">
+ <img src="Assets/Images/img5.jpg" width=300 height=600>
+</div>	
 		
-<div class="about" id="About" style="height:100%">
-	<p>hello</p>
+<div class="about" id="About" style="height:900px">
+	<p>Kgotso Graphics was founded in 2021, with the aim of providing the world with top class pictures.</p>
 </div>	
 
-<div class="Profile" id="Profile" style="height:100%">
-	<p>hello</p>
+<div class="Profile" id="Profile" style="height:50%">
+	<p>Available pictures in 2021</p>
+	<img src="Assets/Images/img1.jpg" width=300 height=100>
+	<img src="Assets/Images/img2.jpg" width=300 height=100>
+	<img src="Assets/Images/img3.jpg" width=300 height=100>
+
 </div>	
 		
 

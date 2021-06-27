@@ -74,8 +74,10 @@ h1, h6 {
     color: black; 
   }
 
-.container{
-
+.about{
+ position: center; 
+width:50px;
+height:200px
 }
 
   /* New Style */
