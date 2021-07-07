@@ -7,11 +7,12 @@
 
 	
 	<link rel="stylesheet" href ="<?php echo base_url();?>Assets/Styles/styles.css">
+
 	
 </head>
 
 
-<body background="https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/3cfd38121156537.60c14c6703f22.jpg" >
+<body background="Assets/Images/backgroundImg.jpg" >
 
 
 
@@ -20,8 +21,10 @@
 					<div class= "logo-wrapper">
 						<img src= "Assets/Images/logo.jpg" 
 						class = "myLogo" alt=" style= width: 20%;
+						
 				   
-	                 "style=" width:20%; margin-left:40%;">
+	                 "style=" width:20%; margin-left:40%; opacity:0.7;"
+					 >
                      </div>
                </div>
 
@@ -29,14 +32,17 @@
 			   
 	<div class= "container">
 	    <div class="topnav-right">
-           <a href="#"class="li">Home</a>
-            <a href="#About">About</a>
-			<a href="https://www.linkedin.com/in/kgotso-maduna-24a4641aa/">Profile</a>
+           <a href="#"class="li" style="color: deeppink;">Home</a>
+            <a href="#About" style="color: deeppink;">About</a>
+			<a href="https://www.linkedin.com/in/kgotso-maduna-24a4641aa/" style="color: deeppink;">Profile</a>
+			<a href="#contact" style="color: deeppink;">Contact</a>
        </div> 
 
 
   </div>
-       
+
+
+	    
 
 	            
 
@@ -51,7 +57,9 @@
 						<h3>Welcome to my page!</h3>
 
 
-						<p><button>Contact</button></p>
+						
+
+					
 
 
                 </div>
@@ -68,23 +76,43 @@
 
 
  <div class="about" id="bout" style="height:600px;">
+ <div class="contact"  id="ontact"  style= "height: 1700px";>
+
+
 	
 </div>	
-<div class="about" id="bout" style="height:100px;">
+<div class="about" id="bout" style="height:600px;">
+
+
+
+
+</div>
+
+
  
 </div>	
 
 		
 <div class="about" id="About" style="height:900px">
-	<p>Kgotso Maduna is an aspiring Software Developer, who is willing to learn more about the Computer Science industry. She is currently learning towards a National Diploma in Information Technology, Software Development at Tshwane University of Technology. In addition to what was already mentioned, she can be described as an initiative-taking individual with passion for developing software. Her passion goes far more beyond working during office hours. She understands clearly that a career in Tech is more about continous learning and is extremely willing to sacrifice her time to encourage her growth in the Tech world.</p>
+	<p>I am an aspiring Software Developer, who is willing to learn more about the Computer Science industry. I am currently learning towards a National Diploma in Information Technology, Software Development at Tshwane University of Technology. In addition to what was already mentioned, I can describe myself as an initiative-taking individual with passion for developing software. My passion goes far more beyond working during office hours. I understand very well that a career in Tech is more about continous learning and is being willing to sacrifice my time to encourage my growth in the Tech world.</p>
 
-	<p>She now is able to use languges like c++, and java and can work with web technologies such as HTML, CSS, as well as some Javascript. Currently she is learning how to use libraries such as Codeigniter, Laravel as well as react js. She is also learning how to use MVC framework, C#, and how to use APIs.</p>
+	<p>I now am able to use languges like c++, and java and can work with web technologies such as HTML, CSS, as well as some Javascript. Currently I am learning how to use libraries such as Codeigniter, Laravel as well as react js. I am also learning how to use the MVC framework, C#, and how to use APIs.</p>
+
+    <p>In the future, I would like to know how to use Angular, Rasor Views, Entity Framework, and many more. I also would like to be able to be an Android and IOS Developer. I am Kgotso and that is my story, Thanks! </p>
 </div>	
 
-<div class="Profile" id="Profile" style="height:50%">
+<!--div class="contact" id="ontact" style="height:1700px">-->
+<h1>Contact Me</h1>
+<h3>Cellphone Number - 0728808927</h3>
+
 	
 </div>	
-		
+
+
+	<footer>
+  <p>Author: Kgotso Maduna</p>
+  <p><a href="kgmaduna01@gmail.com">kgmaduna@gmail.com</a></p>
+</footer>	
 
 </body>
 </html>
